@@ -7,10 +7,6 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.mycomp.demoapp.pojo.AdditionRequest;
-import com.mycomp.demoapp.pojo.AdditionResponse;
-import com.mycomp.demoapp.service.MyService;
-
   @RestController
 @RequestMapping("/stripe/webhook")
 public class StripeWebHookController {
